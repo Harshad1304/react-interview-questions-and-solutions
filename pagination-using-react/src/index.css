@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  
+  padding: 0;
+  
+  box-sizing: border-box;
+  }
+
+  .product-card{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+  }
+  .product-card img{
+    height: 300px;
+    width: 300px;;
+  }
+
+
+  .product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .page-num{
+    margin: 3px;
+    font-size: 24px;
+    padding:10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
