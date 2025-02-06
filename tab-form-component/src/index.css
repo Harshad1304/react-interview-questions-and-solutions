@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.heading-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.heading{
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.tab-body{
+  border: 1px solid white;
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  height: 400px;
+}
+.error{
+  color: red;
+  display: block;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
